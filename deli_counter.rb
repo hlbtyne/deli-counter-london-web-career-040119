@@ -13,6 +13,7 @@ def line(array)
     i = 0
     array.each do |person|
       line.push("#{i + 1}. #{person}")
+      i += 1
   end
   puts "The line is currently: #{line.join(", ")}"
 end
