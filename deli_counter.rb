@@ -10,8 +10,8 @@ def line(array)
     puts "The line is currently empty."
   else
     new_array = []
-    array.each do |index, person|
-      new_array.push("#{index + 1}. #{person}")
+    array.each do , |person|
+      new_array.push("#{i + 1}. #{person}")
     puts "The line is currently: #{new_array}"
   end
 end
