@@ -12,6 +12,6 @@ def line(array)
     new_array = []
     array.each do |person|
       new_array.push("#{array.index + 1}. ")
-    puts The line is currently: #{new_array}
+    puts "The line is currently: #{new_array}"
   end
 end
