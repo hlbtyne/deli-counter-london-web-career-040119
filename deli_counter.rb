@@ -12,7 +12,7 @@ def line(array)
     new_array = []
     array.each do |person|
       new_array.push("#{person}")
-    puts "The line is currently: #{new_array}"
   end
+  puts "The line is currently: #{new_array}"
 end
 end
