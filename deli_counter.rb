@@ -14,6 +14,6 @@ def line(array)
     array.each do |person|
       line.push("#{i + 1}. #{person}")
   end
-  puts "The line is currently: #{line}"
+  puts "The line is currently: #{line.join(", ")}"
 end
 end
