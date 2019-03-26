@@ -9,6 +9,9 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   else
-    puts array
+    new_array = []
+    array.each do |person|
+      new_array.push(array.index + 1)
+    puts new_array
   end
 end
