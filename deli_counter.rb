@@ -15,6 +15,6 @@ def line(array)
       line.push("#{i + 1}. #{person}")
       i += 1
   end
-  puts "The line is currently: #{line.join(", ")}"
+  puts "The line is currently: #{line.join(" ")}"
 end
 end
