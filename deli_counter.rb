@@ -18,3 +18,7 @@ def line(array)
     puts "The line is currently: #{line.join(" ")}"
   end
 end
+
+def now_serving(array)
+  if array.length == 0
+    puts 
